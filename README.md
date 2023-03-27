@@ -4,6 +4,12 @@
 
 HW8 had us convert the **Neyman.C** file from Professor Rogan (written in C++) into a Python file that creates the same Neyman Plot.
 
+Professor Rogan's plot is below.
+
+![Rogan_Neyman.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c0.png)
+
+![Rogan_Gaussian.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c0.png)
+
 A Coin Flip is described by a Binomial Distribution, and only relies on one parameter p, the probability of Heads. 
 
 In this simulation, a coin was flipped Nmeas times in each experiment, and this was repeated for Nexp experiments.
