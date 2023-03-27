@@ -4,6 +4,10 @@
 
 HW8 had us convert the **Neyman.C** file from Professor Rogan (written in C++) into a Python file that creates the same Neyman Plot.
 
+**Neyman.C** can be run with the following command in terminal.
+
+> $ root Neyman.C
+
 Professor Rogan's plots are below.
 
 ![Rogan_Neyman.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c0.png)
