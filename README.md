@@ -8,7 +8,7 @@ A Coin Flip is described by a Binomial Distribution, and only relies on one para
 
 In this simulation, a coin was flipped Nmeas times in each experiment, and this was repeated for Nexp experiments.
 
-The Neyman plot has the x-axis as the "true value of p", and the y-axis as the "measured value of p in an experiment". 
+The Neyman plot has the x-axis as the "true value of p", and the y-axis as the "measured value of p in an experiment". The error bars on our y-value are assumed to have come from a Gaussian Distribution. This can be seen when you select a x-value and then create a 1D slice of the corresponding measured y-value.
 
 The code file **Neyman_Plot.py** can be run with the following code:
 
