@@ -2,7 +2,7 @@
 
 **Neyman Plot**
 
-HW8 had us convert the **Neyman.C** file from Professor Rogan (written in C++) into a Python file that creates the same Neyman Plot.
+HW8 had us convert the **Neyman.C** file from Professor Rogan (written in C++) into a Python file that creates the same Neyman Plot. I wasn't able to do this in time, so I contacted my friend Neema for some help and used his code- I read through it and commented it to understand what it was doing.
 
 **Neyman.C** can be run with the following command in terminal.
 
