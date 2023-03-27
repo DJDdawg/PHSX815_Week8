@@ -20,9 +20,10 @@ The output of this code can be seen in the figure **Neyman_Plot.png**.
 
 The error bars on each data point represent a Gaussian distribution. A heatmap is also created for visual effect. Both plots show the same information.
 
-![new](https://user-images.githubusercontent.com/76142511/227788755-29ad4538-b134-41cf-af55-52c5bd800c76.png)
+![new](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/Neyman%20Plot.png)
 
-The more measurements that are performed and the more experiments ran, the narrower the distribution becomes. Compare this to the graph for 1 measurement per experiment below,
+The more measurements that are performed and the more experiments ran, the narrower the distribution becomes. The below graph uses 10 coin flips per experiment for 1000 experiments.
 
-![new_1](https://user-images.githubusercontent.com/76142511/227788840-524e61c9-6f9c-4224-80c0-0058dcc29cbb.png)
+![new_1](https://user-images.githubusercontent.com/76142511/227788755-29ad4538-b134-41cf-af55-52c5bd800c76.png)
+
 
