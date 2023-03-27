@@ -4,11 +4,13 @@
 
 HW8 had us convert the **Neyman.C** file from Professor Rogan (written in C++) into a Python file that creates the same Neyman Plot.
 
-Professor Rogan's plot is below.
+Professor Rogan's plots are below.
 
 ![Rogan_Neyman.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c0.png)
 
-![Rogan_Gaussian.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c0.png)
+![Rogan_Gaussian.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/macros/c1.png)
+
+The first plot is the Neyman plot, which we will recreated below. The second plot is a 1D projection of a measured y-value for a given x-value. The shape is gaussian as the error bars on the measured values are assumed to come from a normal distribution.
 
 A Coin Flip is described by a Binomial Distribution, and only relies on one parameter p, the probability of Heads. 
 
