@@ -39,3 +39,24 @@ The more measurements that are performed and the more experiments ran, the narro
 ![new_1](https://user-images.githubusercontent.com/76142511/227788755-29ad4538-b134-41cf-af55-52c5bd800c76.png)
 
 
+**Analytical and Numerical Minimization**
+
+The file **Minimization.py** minimizes any quadratic curve. 
+
+It can be run with the following code:
+
+>$ python3 Minimize.py -a 0.5 -b 2.0 -c 0.3 -lowerbound -5.0 -upperbound 5.0 -N 10000
+
+Where a, b, c define the coefficients of the quadratic curve, the lower and upper bounds determine the bounds of the plot created, **Quadratic Minimization.png**, and N is the number of data points used to graph the curve.
+
+And produces the following output:
+
+> The analytical minimum of the quadratic curve is y = -1.7 at x = -2.0
+> 
+> Scipi minimization was successful: True
+> 
+> x-value found to minimize function: -2.0
+>
+> minimal value: -1.7
+
+![Quadratic Minimization.png](https://github.com/DJDdawg/PHSX815_Week8/blob/main/PHSX815_Week8/Quadratic%20Minimization.png)
