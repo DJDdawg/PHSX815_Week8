@@ -41,19 +41,21 @@ The more measurements that are performed and the more experiments ran, the narro
 
 **Analytical and Numerical Minimization**
 
-The file **Minimization.py** minimizes any quadratic curve $f(x) = ax^2 + bx + c$.
+The file **Minimization.py** minimizes any quadratic curve $f(x) = ax^2 + bx + c$. Note that for a minimum to exist, $a > 0$
 
-Analytically, the extrema point can be found by $f'(x) = 0$.
+Analytically, the extrema point can be found through the normal process: solving $f'(x) = 0$.
 
 For a quadratic curve, the point of extrema is, $x = \frac{-b}{2a}$, and the curve has a minimal value of $y = \frac{-b^2}{4a} + c$
 
-It can be run with the following code:
+The program can be run with the following code:
 
 >$ python3 Minimize.py -a 0.5 -b 2.0 -c 0.3 -lowerbound -5.0 -upperbound 5.0 -N 10000
 
 Where a, b, c define the coefficients of the quadratic curve, the lower and upper bounds determine the bounds of the plot created, **Quadratic Minimization.png**, and N is the number of data points used to graph the curve.
 
-And produces the following output:
+The numerical minimization was done using the standard scipy.optimize.minimize_scalar() function, which uses Brent's method by default to minimize a scalar function.
+
+This produces the following output:
 
 > The analytical minimum of the quadratic curve is y = -1.7 at x = -2.0
 > 
