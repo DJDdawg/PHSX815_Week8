@@ -41,7 +41,11 @@ The more measurements that are performed and the more experiments ran, the narro
 
 **Analytical and Numerical Minimization**
 
-The file **Minimization.py** minimizes any quadratic curve. 
+The file **Minimization.py** minimizes any quadratic curve $f(x) = ax^2 + bx + c$.
+
+Analytically, the extrema point can be found by $f'(x) = 0$.
+
+For a quadratic curve, the point of extrema is, $x = \frac{-b}{2a}$, and the curve has a minimal value of $ y = \frac{-b^2}{4a} + c$.
 
 It can be run with the following code:
 
